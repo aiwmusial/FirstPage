@@ -1,0 +1,191 @@
+/***Body***/
+body {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #152E03;
+  color: #ffffff;
+  text-align: justify;
+}
+/***Header***/
+#header-nav {
+	background-color: #0d1a00;
+	border-radius: 0;
+  	border: 2px solid #000000;
+}
+#logo-img {
+	background: url('../images/320px-Bee.jpeg') no-repeat;
+	width: 320px;
+	height: 180px;
+	margin: 0;
+}
+.navbar-brand h1 { /* Website name */
+	color: #ffffff;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 5px;
+	text-align: center;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+} 
+.navbar-brand a:link {
+	color: #ffffff;
+}
+.navbar-nav {
+	float: center;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #ffffff;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: #356600;
+}
+button.navbar-toggle {
+  margin-top: -45px;
+  clear: right;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #ffffff;
+  text-align: center; 
+}
+#nav-list a:hover {
+  background: #356600;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background-color: #0d1a00;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #ffffff;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	background-color: #356600;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default {
+	background-color: #0d1a00;
+	color: #ffffff;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+	background-color: #356600;
+}
+.dropdown-menu>li>a {
+	background-color: #0d1a00;
+	color: #ffffff;
+}
+button {
+	position: relative;
+	right: 2%;
+  	top: 0%;
+  	clear: both;
+}
+/***Webpage body***/
+.container .jumbotron {
+  box-shadow: 0 0 50px #000000;
+  border: 2px solid #000000;
+}
+p {
+	padding: 25px;
+}
+
+#back-to-top h2 {
+	text-align: center;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	text-decoration: underline solid #ffffff;
+	clear: both;
+}
+#back-to-top a:link, a:active, a:visited, a:hover {
+	color: #ffffff;
+}
+/***Footer***/
+h3 {
+ text-align: center;
+ padding-bottom: none;
+}
+/***Footer***/
+.panel-footer {
+	background-color: #0d1a00;
+}
+
+
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Website title */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .header-nav img { /* Bee */
+    height: 5px;
+  }
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  
+}
+/***Waysto save bees***/
+#ordered-list {
+	margin: auto;
+	width: 80%;
+	padding: 20px;
+}
+}
+ /********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/800px-beehive.jpg') no-repeat;
+    height: 200px;
+  }
+  /* End Home Page */
+ /***Waysto save bees***/
+#ordered-list {
+	margin: auto;
+	width: 70%;
+	padding: 20px;
+}
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/1024px-beehive.jpg') no-repeat;
+    height: 300px;
+  }
+  /* End Home Page */
+/***Waysto save bees***/
+#ordered-list {
+	margin: auto;
+	width: 50%;
+	padding: 20px;
+}
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    background: url('../images/1280px-beehive.jpg') no-repeat;
+    height: 400px;
+  }
+/***Waysto save bees***/
+#ordered-list {
+	margin: auto;
+	width: 30%;
+	padding: 20px;
+}
+}
