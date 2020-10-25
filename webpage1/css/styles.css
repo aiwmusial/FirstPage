@@ -116,8 +116,10 @@ h3 {
 .panel-footer {
 	background-color: #0d1a00;
 }
-
-
+/*Acknowledgements*/
+.acknowledgements {
+	margin: 15px;
+}
 
 
 /********** Extra small devices only **********/
